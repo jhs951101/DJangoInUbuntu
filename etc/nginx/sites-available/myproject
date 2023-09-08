@@ -1,0 +1,12 @@
+server {
+	listen 80;
+	server_name jhubuntu.cafe24.com;
+
+	location /static/ {
+		root /home/ubuntu/static/;
+	}
+
+	location / {
+		proxy_pass http://jhubuntu.cafe24.com:8000;
+	}
+}

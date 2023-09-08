@@ -1,0 +1,3 @@
+/etc/nginx/sites-available/(파일명)
+
+** 파일명: 'default' or 'myproject'
